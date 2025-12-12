@@ -1,0 +1,60 @@
+.light-bg-color{
+    background-color:#F3FAF5;
+}
+.light-nav-bg{
+    background-color:#E6EAF1;
+}
+.semi-bold{
+    font-weight:600;
+}
+.bold{
+    font-weight:700;
+}
+.Extra-bold{
+    font-weight:800;
+}
+.rounded-full{
+    border-radius:9999px;
+    padding: 6px 8px;
+}
+/*Banner section*/
+.Banner-bg{
+    filter: opacity(0.1)
+}
+/*all h tag*/
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
+}
+
+/*button styles*/
+.button-1{
+    background-color: transparent;
+    color: #2563EB;
+    border:#2563EB 2px solid;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight:600;
+}
+.button-2{
+    background-color: #2563EB;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight:600;
+}

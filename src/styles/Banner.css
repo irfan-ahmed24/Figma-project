@@ -1,0 +1,7 @@
+.robotImage{
+    position: absolute;
+    bottom: 0px;
+    right: -150px;
+    rotate: calc(25deg);
+    z-index: 0;
+}
