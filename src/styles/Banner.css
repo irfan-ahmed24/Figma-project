@@ -3,6 +3,11 @@
     bottom: 0px;
     right: -150px;
     rotate: calc(25deg);
-    visibility: hidden;
     z-index: 0;
+}
+.Banner-bg{
+    filter: opacity(0.1);
+    height: 1185px;
+    width: 100%;
+    object-fit: cover;
 }

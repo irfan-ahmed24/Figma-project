@@ -1,3 +1,8 @@
+.screen-width{
+    width:100%;
+    max-width: 1920px;
+}
+
 .light-bg-color{
     background-color:#F3FAF5;
 }
@@ -17,31 +22,42 @@
     border-radius:9999px;
     padding: 6px 8px;
 }
-/*Banner section*/
-.Banner-bg{
-    filter: opacity(0.1);
-    height: 950px;
-    width: 100%;
-    object-fit: cover;
-}
+
 /*all h tag*/
 h1{
     font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
 }
 h2{
     font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
 }
 h3{
-    font-size: 36px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
 }
 h4{
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 80px;
 }
 h5{
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 80px;
 }
 h6{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 80px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 /*button styles*/
@@ -55,6 +71,7 @@ h6{
 }
 .button-2{
     background-color: #2563EB;
+    border:#2563EB 2px solid;
     color: white;
     border:none;
     padding: 10px 20px;
