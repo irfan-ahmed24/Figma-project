@@ -19,7 +19,10 @@
 }
 /*Banner section*/
 .Banner-bg{
-    filter: opacity(0.1)
+    filter: opacity(0.1);
+    height: 950px;
+    width: 100%;
+    object-fit: cover;
 }
 /*all h tag*/
 h1{
@@ -57,4 +60,16 @@ h6{
     padding: 10px 20px;
     border-radius: 100px;
     font-weight:600;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    
 }

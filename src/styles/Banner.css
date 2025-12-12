@@ -3,5 +3,6 @@
     bottom: 0px;
     right: -150px;
     rotate: calc(25deg);
+    visibility: hidden;
     z-index: 0;
 }
