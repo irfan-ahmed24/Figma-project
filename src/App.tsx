@@ -6,6 +6,10 @@ import Banner from './components/Banner';
 import InstallSection from './components/InstallSection';
 import Group from './components/Group';
 import Benifit from './components/Benifit';
+import Architechture from './components/Architechture';
+import Features from './components/Features';
+import DataProcess from './components/DataProcess';
+import Tastimonial from './components/Tastimonial';
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
         <InstallSection />
         <Group />
         <Benifit />
+        <Architechture />
+        <Features />
+        <DataProcess />
+        <Tastimonial />
       </div>
     </>
   )

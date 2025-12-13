@@ -1,13 +1,26 @@
+:root {
+    --body-background-color: #EAEEF6;
+    --nav-background-color: #E6EAF1;
+}
+
+.dark{
+    --body-background-color: #121517;
+    --nav-background-color: #13181E;
+}
+
+
 .screen-width{
     width:100%;
     max-width: 1920px;
 }
 
 .light-bg-color{
-    background-color:#F3FAF5;
+    background-color:var(--body-background-color);
 }
+
+
 .light-nav-bg{
-    background-color:#E6EAF1;
+    background-color:var(--nav-background-color);
 }
 .semi-bold{
     font-weight:600;
