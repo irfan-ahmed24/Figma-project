@@ -1,6 +1,6 @@
 //import css file
-import "../styles/style.css";
-import "../styles/Banner.css";
+import "../../styles/style.css";
+import "../../styles/Banner.css"
 import { GoArrowUpRight } from "react-icons/go";
 function Banner() {
   return (

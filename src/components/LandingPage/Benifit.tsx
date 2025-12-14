@@ -1,5 +1,5 @@
-import "../styles/Benifit.css";
-import "../styles/style.css";
+import "../../styles/Benifit.css";
+import "../../styles/style.css";
 
 function Benifit() {
   return (

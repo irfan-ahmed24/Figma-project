@@ -1,5 +1,5 @@
 //import css file
-import "../styles/style.css";
+import "../../styles/style.css";
 import { TfiWorld } from "react-icons/tfi";
 
 function Group() {

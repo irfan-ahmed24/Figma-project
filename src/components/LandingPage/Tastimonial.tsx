@@ -1,4 +1,4 @@
-import ReviewCard from "./Card/ReviewCard";
+import ReviewCard from "../Card/ReviewCard";
 
 function Tastimonial() {
   return (

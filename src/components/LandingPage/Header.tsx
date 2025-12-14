@@ -1,5 +1,5 @@
 //import css file
-import "../styles/style.css";
+import "../../styles/style.css";
 
 //react icons import
 import { IoSunny } from "react-icons/io5";
