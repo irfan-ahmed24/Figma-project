@@ -1,9 +1,9 @@
 import { FaPlus } from "react-icons/fa6";
 function FAQsection() {
   return (
-    <div>
+    <div className="bg-color">
       <div className="container px-0 px-md-5">
-        <div className="my-5 py-5">
+        <div className="py-5">
           <div className="mx-0 mx-md-5 text-center">
             <h2 className="fw-bold mb-3">
               Frequently Asked

@@ -34,7 +34,6 @@ function App() {
         <FAQsection />
         <Resources />
         <Footer />
-        <hr />
         <CopyRight />
       </div>
     </>

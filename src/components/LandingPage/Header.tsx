@@ -7,7 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Header() {
   return (
-    <div className="light-nav-bg position-fixed mx-auto screen-width top-0 z-1">
+    <div className="Custom-bg position-fixed mx-auto screen-width top-0 z-2">
       <div className="container d-flex justify-content-between align-items-center">
         <h4 className="semi-bold fs-3">Nex AI</h4>
         <div>

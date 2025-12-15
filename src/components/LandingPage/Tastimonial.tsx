@@ -2,7 +2,7 @@ import ReviewCard from "../Card/ReviewCard";
 
 function Tastimonial() {
   return (
-    <section className="py-5 light-bg-color">
+    <section className="py-5 bg-color">
       <div className="container">
         <div className="row mb-5">
           <div className="col-lg-8 mx-auto text-center">

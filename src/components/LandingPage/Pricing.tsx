@@ -4,7 +4,7 @@ import PriceCard from "../Card/PriceCard";
 
 function Pricing() {
   return (
-    <div className="bg-color py-5">
+    <div className="Custom-bg py-5">
       <div className="container my-5">
         <div className="row mb-5">
           <div className="mx-auto col-12 col-lg-8">

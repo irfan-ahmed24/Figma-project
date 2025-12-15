@@ -1,7 +1,7 @@
 function PriceCard() {
   return (
     <>
-    <div className="col-12 col-md-4 fit-height p-4 border rounded-3 price-card">
+    <div className="col-12 col-md-4 fit-height p-4 border rounded-3">
         <h3>Basic</h3>
         <p>AI chatbot, personalized recommendations</p>
             <h4 className="line-h-0">$ 0</h4>
