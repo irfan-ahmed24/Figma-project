@@ -5,8 +5,8 @@ import { GoArrowUpRight } from "react-icons/go";
 function Banner() {
   return (
     <div className="position-relative bg-color Banner-bg screen-width">
-      <div className="py-5 mt-5 start-0 w-100">
-        <div className="container py-5 mt-5">
+      <div className="py-0 py-lg-5 mt-0 start-0 w-100">
+        <div className="container py-5 mt-0">
           <div className="text-center text-dark py-5 px-0 px-md-5">
             <div className="px-0 px-md-4">
                 <h1 className="text-center my-4">Effortless <span className="text-primary">AI Automation SaaS</span> ChatBot No Code - Just Drag & Drop</h1>
@@ -19,7 +19,7 @@ function Banner() {
           </div>
           <div className="position-relative px-3">
             <img className="z-1 img-fluid" src="./contentImages/content-1.png" alt="" width="100%"/>
-            {/* <img className="robotImage hidden" src="./contentImages/robotImage.png" alt="" height="336px" width="371px"/> */}
+            <img className="robotImage d-none d-xl-block" src="./contentImages/robotImage.png" alt="" height="336px" width="371px"/>
           </div>
         </div>
       </div>

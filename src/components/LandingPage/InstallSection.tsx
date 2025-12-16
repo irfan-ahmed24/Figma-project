@@ -3,7 +3,7 @@ import "../../styles/style.css";
 import { GoArrowUpRight } from "react-icons/go";
 function InstallSection() {
   return (
-    <div className="screen-width bg-color">
+    <div className="screen-width py-3 bg-color">
       <div className="container">
         <h2 className="mx-0 mx-md-5 px-0 px-lg-5 text-center">One-click chatbot widget for website and <span className="text-primary">online store</span></h2>
         <div className="mt-5 grid d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">

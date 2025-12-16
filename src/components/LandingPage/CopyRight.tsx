@@ -3,7 +3,7 @@ function CopyRight() {
   return (
     <div className="Custom-bg py-3 lh-sm border-top">
       <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <p>© 2025 Your Company. All rights reserved.</p>
+        <p>© Copyright. All rights reserved.</p>
         <div>
           <ul className="d-flex gap-3 list-unstyled">
             <li>

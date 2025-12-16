@@ -18,7 +18,7 @@ function Tastimonial() {
           </div>
         </div>
 
-        <div className="row g-4">
+        <div className="row g-3 review">
           <ReviewCard />
           <ReviewCard />
           <ReviewCard />

@@ -20,7 +20,7 @@ function Resources() {
           </div>
         </div>
         <div className="d-flex justify-content-between flex-column flex-lg-row gap-4">
-          <div className="border border-3 pb-3 rounded-3 light-nav-bg">
+          <div className="border border-1 pb-3 rounded-3 resource-card">
             <div>
               <img
                 className="img-fluid"
@@ -28,7 +28,7 @@ function Resources() {
                 alt=""
               />
             </div>
-            <div className="d-flex border border-3 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
+            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
               <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between">
                 <FaRegUser className="fs-4 me-3"/>
                 <p>By Admin</p>
@@ -49,7 +49,7 @@ function Resources() {
             </div>
           </div>
 
-          <div className="border border-3 pb-3 rounded-3 light-nav-bg">
+          <div className="border border-1 pb-3 rounded-3 resource-card">
             <div>
               <img
                 className="img-fluid"
@@ -57,7 +57,7 @@ function Resources() {
                 alt=""
               />
             </div>
-            <div className="d-flex border border-3 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
+            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
               <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between">
                 <FaRegUser className="fs-4 me-3"/>
                 <p>By Admin</p>
@@ -78,7 +78,7 @@ function Resources() {
             </div>
           </div>
 
-          <div className="border border-3 pb-3 rounded-3 light-nav-bg">
+          <div className="border border-1 pb-3 rounded-3 resource-card">
             <div>
               <img
                 className="img-fluid"
@@ -86,7 +86,7 @@ function Resources() {
                 alt=""
               />
             </div>
-            <div className="d-flex border border-3 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
+            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
               <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between">
                 <FaRegUser className="fs-4 me-3"/>
                 <p>By Admin</p>

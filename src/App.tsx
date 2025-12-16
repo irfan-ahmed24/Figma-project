@@ -15,13 +15,18 @@ import FAQsection from './components/LandingPage/FAQsection';
 import Resources from './components/LandingPage/Resources';
 import Footer from './components/LandingPage/Footer';
 import CopyRight from './components/LandingPage/CopyRight';
+import { useState } from 'react';
 
 
 function App() {
+  const [isDarkMode, setIsDarkMode] =  useState(false);
+  const handleToggleDarkMode = (DarkMode: boolean | ((prevState: boolean) => boolean)) => {
+    setIsDarkMode(DarkMode);
+  }
   return (
     <>
-      <div className='light-bg-color min-vh-100'>
-        <Header />
+      <div className={`light-bg-color min-vh-100 ${isDarkMode ? 'dark' : '' }`}>
+        <Header onDarkMode={handleToggleDarkMode} />
         <Banner />
         <InstallSection />
         <Group />

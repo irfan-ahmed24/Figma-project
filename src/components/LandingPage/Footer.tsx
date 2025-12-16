@@ -15,7 +15,10 @@ function Footer() {
             </div>
             <p className="text-muted">Facilizes sed odic morbid quiz odic commodore odic. Facilizes sed odic morbid quiz odic Facilizes sed odic</p>
             <h4>Join a Newsletter</h4>
-            <div></div>
+            <div className="position-relative">
+              <input type="text" className="form-control w-100 rounded-5 px-4 fs-5 d-inline-block" placeholder="Enter your email"/>
+              <button className="button-2 position-absolute top-0 end-0 rounded-start">Subscribe</button>
+            </div>
           </div>
 
           <div className="col-12 col-md-6 col-xl-4">

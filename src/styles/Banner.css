@@ -1,9 +1,9 @@
 .robotImage{
     position: absolute;
     bottom: 0px;
-    right: -150px;
-    rotate: calc(25deg);
-    z-index: 0;
+    right: -240px;
+    transform: rotateY(164.34deg) rotateZ(-20.71deg);
+    z-index: -1;
 }
 .Banner-bg {
   position: relative;
