@@ -7,12 +7,12 @@ function Group() {
     <div className="screen-width py-5 bg-color">
       <div className="row g-4 container mx-auto">
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -21,12 +21,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -35,12 +35,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -49,12 +49,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -63,12 +63,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -77,12 +77,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -91,12 +91,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>
@@ -105,12 +105,12 @@ function Group() {
         </div>
 
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
-          <div className="p-4 border rounded-3 d-flex h-100 align-items-center install-card">
+          <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 text-muted display-6" />
+              <TfiWorld className="me-3 group-icon display-6" />
             </div>
             <div>
-              <p className="text-left mb-0">Install on</p>
+              <p className="text-start p2-tag">Install on</p>
               <a href="#" className="fw-bold fs-4 pb-2 website-link">
                 Your Website{" "}
               </a>

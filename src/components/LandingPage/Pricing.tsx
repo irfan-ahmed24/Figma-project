@@ -30,11 +30,11 @@ function Pricing() {
       <div className="container my-5">
         <div className="d-block d-lg-flex justify-content-between gap-5 mb-5">
           <div className="">
-            <h2 className="fw-bold mb-3">
+            <h2 className="fw-bold mb-3 h2-tag text-start">
               Simple & affordable 
               <span className="text-primary"> pricing Plans</span>
             </h2>
-            <p className="text-muted">
+            <p className="text-color p2-tag text-start me-lg-5">
               Quickly customize and install an AI-powered chat widget on your website. Engage visitors, answer questions instantly, and boost conversions — all without writing a single line of code.
             </p>
           </div>

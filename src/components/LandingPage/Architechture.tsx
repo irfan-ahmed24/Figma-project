@@ -4,10 +4,10 @@ function Architechture() {
       <div className="container py-5">
         <div className="p-0 px-md-5 my-5">
           <div className="m-0 mx-md-5 px-0 px-md-5 text-center">
-            <h2 className="mb-3">
+            <h2 className="mb-4 h1-tag">
               AI System <span className="text-primary">Architecture</span>
             </h2>
-            <p className="px-0 px-md-5 text-muted">
+            <p className="px-0 px-md-5 p2-tag">
               Quickly customize and install an AI-powered chat widget on your
               website. Engage visitors, answer questions instantly, and boost
               conversions — all without writing a single line of code.

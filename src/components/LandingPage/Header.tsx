@@ -21,47 +21,47 @@ function Header(props: HeaderProps) {
 
   return (
     <div className="Custom-bg position-fixed mx-auto screen-width top-0 z-2">
-      <div className="container py-2 d-flex justify-content-between align-items-center">
-        <h4 className="semi-bold fs-3">Nex AI</h4>
+      <div className="container py-4 d-flex justify-content-between align-items-center">
+        <h4 className="nav-logo">Nex AI</h4>
         <div>
           <IoMdMenu className="fs-3 d-lg-none" />
         </div>
         <div className="d-none d-lg-block">
           <ul className="d-flex justify-content-between list-unstyled mb-0">
             <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="">
+              <a href="" className="nav-Link">
                 Home
               </a>
             </li>
             <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="">
+              <a href="" className="nav-Link">
                 Product
               </a>
             </li>
             <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="">
+              <a href="" className="nav-Link">
                 Integrations
               </a>
             </li>
             <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="">
+              <a href="" className="nav-Link">
                 Resurge
               </a>
             </li>
             <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="">
+              <a href="" className="nav-Link">
                 Contact
               </a>
             </li>
           </ul>
         </div>
         <div className="d-none d-lg-flex justify-content-between align-items-center">
-            <button onClick={handleToggleDarkMode} className="d-flex align-items-center border border-gray-300 rounded-circle p-2 p-xl-2 mx-1 mx-xl-3 bg-transparent">
-              <IoSunny className="fs-5 fs-xl-4" />
+            <button onClick={handleToggleDarkMode} className="d-flex light-icon align-items-center border border-gray-100 rounded-circle p-2 p-xl-2 mx-1 mx-xl-3 bg-transparent">
+              <IoSunny className="fs-5 fs-xl-4 text-color" />
             </button>
           <div className="relative mx-1 mx-xl-3">
             <select
-              className="appearance-none bg-transparent border bold border-gray-300 px-2 py-2 rounded-full text-gray-700 focus:outline-none"
+              className="appearance-none text-color bg-transparent border bold border-gray-300 px-2 py-2 rounded-full focus:outline-none"
               name="language"
               id="language-select"
             >
