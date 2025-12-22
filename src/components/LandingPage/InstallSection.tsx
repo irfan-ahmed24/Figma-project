@@ -11,8 +11,8 @@ function InstallSection() {
               <img className="img-fluid" src="./contentImages/chatBox.png" alt="Install Widget" />
             </div>
             <div className="col-12 col-md-6 text-center text-md-start">
-                <h5 className="mb-3 h3-tag">Install on your website</h5>
-                <p className="mb-3 p2-tag text-lg-start">Add a code snippet to your website, and you’re ready to automate your customer service with AI! Easily connect with many web and ecommerce platforms.</p>
+                <h5 className="mb-3 h3-tag text-md-start">Install on your website</h5>
+                <p className="mb-3 p2-tag text-md-start">Add a code snippet to your website, and you’re ready to automate your customer service with AI! Easily connect with many web and ecommerce platforms.</p>
                 <button className="button-2">Install Now <GoArrowUpRight className="inline-block ms-2" /></button>
             </div>
         </div>

@@ -16,7 +16,7 @@ function QuestionCard(props: QuestionCardProps) {
     }
     const { onData } = props;
   return (
-    <div className="p-3 my-3 border border-3 rounded">
+    <div className="p-3 my-3 FAQ-card">
       <div className="d-flex justify-content-between align-items-center">
         <h5 className="lh-sm h5-tag">{onData.question}</h5>
         <button onClick={handleShowAnswer} className="bg-transparent text-color border-0 p-0 m-0">

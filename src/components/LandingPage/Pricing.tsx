@@ -39,9 +39,9 @@ function Pricing() {
             </p>
           </div>
           <div className="col-12 col-lg-4 rounded-5 border border-primary fit-width text-start text-lg-end align-self-start align-self-lg-end">
-            <button onClick={() => handlepricingToggle("Monthly")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isMonthly ? "active-button" : ""}`}>Monthly </button>
-            <button onClick={() => handlepricingToggle("Yearly")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isYearly ? "active-button" : ""}`}>Yearly</button>
-            <button onClick={() => handlepricingToggle("Lifetime")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isLifetime ? "active-button" : ""}`}>Lifetime</button>
+            <button onClick={() => handlepricingToggle("Monthly")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isMonthly ? "active-button" : "text-color"}`}>Monthly </button>
+            <button onClick={() => handlepricingToggle("Yearly")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isYearly ? "active-button" : "text-color"}`}>Yearly</button>
+            <button onClick={() => handlepricingToggle("Lifetime")} className={`border-0 bg-transparent px-3 py-2 fs-6 fs-lg-5 ${isLifetime ? "active-button" : "text-color"}`}>Lifetime</button>
           </div>
         </div>
         <div className="">

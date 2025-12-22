@@ -4,9 +4,9 @@ function ReviewCard() {
   return (
       <div className="mb-3">
         <div
-          className="card shadow-sm p-5 position-relative"
+          className="card p-3 p-lg-5 position-relative review-card"
         >
-          <div className="position-absolute top-0 end-0 m-5 text-primary mb-3">
+          <div className="position-absolute top-0 end-0 m-3 m-lg-5 text-primary mb-3">
             <FaQuoteLeft size={25} />
           </div>
           <div className="d-flex align-items-center mb-3">

@@ -21,90 +21,105 @@ function Resources() {
           </div>
         </div>
         <div className="d-flex justify-content-between flex-column flex-lg-row gap-4">
-          <div className="border border-1 pb-3 rounded-3 resource-card">
-            <div>
+          <div className="pb-3 rounded-3 resource-card overflow-hidden">
+            <div className="">
               <img
                 className="img-fluid"
                 src="./contentImages/blogPic1.jpg"
-                alt=""
+                alt="Blog Thumbnail"
               />
             </div>
-            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <FaRegUser className="fs-4 me-3"/>
-                <p>By Admin</p>
+            <div className="resource-card-border pb-4">
+              <div className="d-flex pt-3 px-3 resource-title-border flex-row flex-lg-column flex-xl-row justify-content-between">
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <FaRegUser className="fs-4 me-3" />
+                  <p>By Admin</p>
+                </div>
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <MdOutlineDateRange className="fs-4 me-3" />
+                  <p>January 1, 2024</p>
+                </div>
               </div>
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <MdOutlineDateRange className="fs-4 me-3"/>
-                <p>January 1, 2024</p>
+              <div className="px-3">
+                <h5 className="lh-sm my-4 h5-tag">
+                  Transform Your Customer Support with AI Chatbots
+                </h5>
+                <p className="text-color lh-sm p3-tag">
+                  AI chatbots help businesses provide instan consistent, and
+                  efficient support around the clock. Instead of making...
+                </p>
+                <a href="" className="fs-5 bold">
+                  Read More <GoArrowUpRight />
+                </a>
               </div>
-            </div>
-            <div className="px-3">
-              <h5 className="lh-sm my-4 h5-tag">
-                Transform Your Customer Support with AI Chatbots
-              </h5>
-              <p className="text-color lh-sm p3-tag">
-                AI chatbots help businesses provide instan consistent, and efficient support around the clock. Instead of making...
-              </p>
-              <a href="" className="fs-5 bold">Read More <GoArrowUpRight /></a>
             </div>
           </div>
 
-          <div className="border border-1 pb-3 rounded-3 resource-card">
-            <div>
+          <div className="pb-3 rounded-3 resource-card overflow-hidden">
+            <div className="">
               <img
                 className="img-fluid"
-                src="./contentImages/blogPic2.jpg"
-                alt=""
+                src="./contentImages/blogPic1.jpg"
+                alt="Blog Thumbnail"
               />
             </div>
-            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <FaRegUser className="fs-4 me-3"/>
-                <p>By Admin</p>
+            <div className="resource-card-border pb-4">
+              <div className="d-flex pt-3 px-3 resource-title-border flex-row flex-lg-column flex-xl-row justify-content-between">
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <FaRegUser className="fs-4 me-3" />
+                  <p>By Admin</p>
+                </div>
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <MdOutlineDateRange className="fs-4 me-3" />
+                  <p>January 1, 2024</p>
+                </div>
               </div>
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <MdOutlineDateRange className="fs-4 me-3"/>
-                <p>January 1, 2024</p>
+              <div className="px-3">
+                <h5 className="lh-sm my-4 h5-tag">
+                  Transform Your Customer Support with AI Chatbots
+                </h5>
+                <p className="text-color lh-sm p3-tag">
+                  AI chatbots help businesses provide instan consistent, and
+                  efficient support around the clock. Instead of making...
+                </p>
+                <a href="" className="fs-5 bold">
+                  Read More <GoArrowUpRight />
+                </a>
               </div>
-            </div>
-            <div className="px-3">
-              <h5 className="lh-sm my-4 h5-tag">
-                Transform Your Customer Support with AI Chatbots
-              </h5>
-              <p className="text-color lh-sm p3-tag">
-                AI chatbots help businesses provide instan consistent, and efficient support around the clock. Instead of making...
-              </p>
-              <a href="" className="fs-5 bold">Read More <GoArrowUpRight /></a>
             </div>
           </div>
 
-          <div className="border border-1 pb-3 rounded-3 resource-card">
-            <div>
+          <div className="pb-3 rounded-3 resource-card overflow-hidden">
+            <div className="">
               <img
                 className="img-fluid"
-                src="./contentImages/blogPic3.jpg"
-                alt=""
+                src="./contentImages/blogPic1.jpg"
+                alt="Blog Thumbnail"
               />
             </div>
-            <div className="d-flex border border-1 pt-3 px-3 flex-row flex-lg-column flex-xl-row justify-content-between">
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <FaRegUser className="fs-4 me-3"/>
-                <p>By Admin</p>
+            <div className="resource-card-border pb-4">
+              <div className="d-flex pt-3 px-3 resource-title-border flex-row flex-lg-column flex-xl-row justify-content-between">
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <FaRegUser className="fs-4 me-3" />
+                  <p>By Admin</p>
+                </div>
+                <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
+                  <MdOutlineDateRange className="fs-4 me-3" />
+                  <p>January 1, 2024</p>
+                </div>
               </div>
-              <div className="d-flex justify-content-between justify-content-lg-start justify-content-xl-between p3-tag">
-                <MdOutlineDateRange className="fs-4 me-3"/>
-                <p>January 1, 2024</p>
+              <div className="px-3">
+                <h5 className="lh-sm my-4 h5-tag">
+                  Transform Your Customer Support with AI Chatbots
+                </h5>
+                <p className="text-color lh-sm p3-tag">
+                  AI chatbots help businesses provide instan consistent, and
+                  efficient support around the clock. Instead of making...
+                </p>
+                <a href="" className="fs-5 bold">
+                  Read More <GoArrowUpRight />
+                </a>
               </div>
-            </div>
-            <div className="px-3">
-              <h5 className="lh-sm my-4 h5-tag">
-                Transform Your Customer Support with AI Chatbots
-              </h5>
-              <p className="text-color lh-sm p3-tag">
-                AI chatbots help businesses provide instan consistent, and efficient support around the clock. Instead of making...
-              </p>
-              <a href="" className="fs-5 bold p-2">Read More <GoArrowUpRight /></a>
             </div>
           </div>
         </div>

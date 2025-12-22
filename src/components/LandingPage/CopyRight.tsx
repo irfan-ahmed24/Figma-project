@@ -1,4 +1,7 @@
 import { FaFacebook } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
 function CopyRight() {
   return (
     <div className="Custom-bg py-3 lh-sm border-top">
@@ -14,19 +17,19 @@ function CopyRight() {
 
             <li>
               <a href="">
-                <FaFacebook className="fs-3" />
+                <FaSquareXTwitter className="fs-3" />
               </a>
             </li>
 
             <li>
               <a href="">
-                <FaFacebook className="fs-3" />
+                <FaLinkedinIn className="fs-3" />
               </a>
             </li>
 
             <li>
               <a href="">
-                <FaFacebook className="fs-3" />
+                <FaPinterest className="fs-3" />
               </a>
             </li>
           </ul>

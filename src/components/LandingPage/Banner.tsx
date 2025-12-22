@@ -4,8 +4,8 @@ import "../../styles/Banner.css"
 import { GoArrowUpRight } from "react-icons/go";
 function Banner() {
   return (
-    <div className="position-relative bg-color Banner-bg screen-width">
-      <div className="py-0 py-lg-5 mt-0 start-0 w-100">
+    <div className="position-relative container-fluid bg-color Banner-bg">
+      <div className="py-0 py-lg-5 mt-0 start-0">
         <div className="container py-5 mt-0">
           <div className="text-center text-dark py-5 px-0 px-md-4">
             <div className="px-0 px-md-4">

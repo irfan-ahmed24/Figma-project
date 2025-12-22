@@ -13,7 +13,7 @@ function FAQsection() {
   ];
   return (
     <div className="bg-color">
-      <div className="container px-0 px-md-5">
+      <div className="container px-2 px-md-5">
         <div className="py-5">
           <div className="mx-0 mx-md-5 text-center">
             <h2 className="fw-bold mb-3 h2-tag">

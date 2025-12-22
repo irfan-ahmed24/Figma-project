@@ -1,6 +1,13 @@
 //import css file
 import "../../styles/style.css";
 import { TfiWorld } from "react-icons/tfi";
+import { FaWebflow } from "react-icons/fa6";
+import { FaWordpress } from "react-icons/fa";
+import { FaWix } from "react-icons/fa";
+import { FaWeebly } from "react-icons/fa";
+import { FaShopify } from "react-icons/fa";
+import { SiBigcommerce } from "react-icons/si";
+import { FaSquarespace } from "react-icons/fa";
 
 function Group() {
   return (
@@ -13,7 +20,7 @@ function Group() {
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -23,11 +30,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaWebflow className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -37,11 +44,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaWordpress className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -51,11 +58,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaWix className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -65,11 +72,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaWeebly className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -79,11 +86,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaShopify className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -93,11 +100,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <SiBigcommerce className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>
@@ -107,11 +114,11 @@ function Group() {
         <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
           <div className="p-4 d-flex h-100 align-items-center group-border">
             <div className="d-flex align-items-center">
-              <TfiWorld className="me-3 group-icon display-6" />
+              <FaSquarespace className="me-3 group-icon display-6" />
             </div>
             <div>
               <p className="text-start p2-tag">Install on</p>
-              <a href="#" className="fw-bold fs-4 pb-2 website-link">
+              <a href="#" className="h6-tag text-primary website-link">
                 Your Website{" "}
               </a>
             </div>

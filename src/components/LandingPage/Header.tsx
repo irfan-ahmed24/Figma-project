@@ -1,67 +1,68 @@
-//import css file
-import "../../styles/style.css";
-
-//react icons import
-import { IoSunny } from "react-icons/io5";
+import { useEffect, useState } from "react";
+// react icons import
+import { IoSunny, IoMoon } from "react-icons/io5"; 
 import { GoArrowUpRight } from "react-icons/go";
 import { IoMdMenu } from "react-icons/io";
-import { useState } from "react";
+import "../../styles/style.css";
 
 interface HeaderProps {
   onDarkMode: (isDark: boolean) => void;
 }
 
-function Header(props: HeaderProps) {
-  props.onDarkMode;
-  const [DarkMode, setIsDarkMode] = useState(false);
+function Header({ onDarkMode }: HeaderProps) {
+  const [isDark, setIsDark] = useState<boolean>(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme === "dark" ? true : false;
+  });
+  useEffect(() => {
+    if (isDark) {
+      document.body.classList.add("dark-mode"); 
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.body.classList.remove("dark-mode");
+      localStorage.setItem("theme", "light");
+    }
+    onDarkMode(isDark); 
+  }, [isDark, onDarkMode]);
+
   const handleToggleDarkMode = () => {
-    setIsDarkMode(!DarkMode);
-    props.onDarkMode(!DarkMode);
-  }
+    setIsDark(!isDark);
+  };
 
   return (
     <div className="Custom-bg position-fixed mx-auto screen-width top-0 z-2">
       <div className="container py-4 d-flex justify-content-between align-items-center">
         <h4 className="nav-logo">Nex AI</h4>
+        
         <div>
-          <IoMdMenu className="fs-3 d-lg-none" />
+          <IoMdMenu className="fs-3 d-lg-none text-color" />
         </div>
+
         <div className="d-none d-lg-block">
           <ul className="d-flex justify-content-between list-unstyled mb-0">
-            <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="" className="nav-Link">
-                Home
-              </a>
-            </li>
-            <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="" className="nav-Link">
-                Product
-              </a>
-            </li>
-            <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="" className="nav-Link">
-                Integrations
-              </a>
-            </li>
-            <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="" className="nav-Link">
-                Resurge
-              </a>
-            </li>
-            <li className="fs-6 bold mx-2 mx-xl-4">
-              <a href="" className="nav-Link">
-                Contact
-              </a>
-            </li>
+            <li className="fs-6 bold mx-2 mx-xl-4"><a href="" className="nav-Link">Home</a></li>
+            <li className="fs-6 bold mx-2 mx-xl-4"><a href="" className="nav-Link">Product</a></li>
+            <li className="fs-6 bold mx-2 mx-xl-4"><a href="" className="nav-Link">Integrations</a></li>
+            <li className="fs-6 bold mx-2 mx-xl-4"><a href="" className="nav-Link">Resurge</a></li>
+            <li className="fs-6 bold mx-2 mx-xl-4"><a href="" className="nav-Link">Contact</a></li>
           </ul>
         </div>
+
         <div className="d-none d-lg-flex justify-content-between align-items-center">
-            <button onClick={handleToggleDarkMode} className="d-flex light-icon align-items-center border border-gray-100 rounded-circle p-2 p-xl-2 mx-1 mx-xl-3 bg-transparent">
-              <IoSunny className="fs-5 fs-xl-4 text-color" />
-            </button>
+          <button 
+            onClick={handleToggleDarkMode} 
+            className="d-flex light-icon align-items-center border border-gray-100 rounded-circle p-2 mx-1 mx-xl-3 bg-transparent"
+          >
+            {isDark ? (
+              <IoMoon className="fs-4 text-warning" /> 
+            ) : (
+              <IoSunny className="fs-4 text-color" /> 
+            )}
+          </button>
+
           <div className="relative mx-1 mx-xl-3">
             <select
-              className="appearance-none text-color bg-transparent border bold border-gray-300 px-2 py-2 rounded-full focus:outline-none"
+              className="appearance-none text-color bg-transparent border bold fs-5 border-gray-300 px-3 py-2 rounded-full focus:outline-none"
               name="language"
               id="language-select"
             >
@@ -70,16 +71,15 @@ function Header(props: HeaderProps) {
               <option value="SP">SP</option>
             </select>
           </div>
+
           <div className="mx-1 mx-xl-3">
-            <button className="button-1 bold px-2 px-xl-3 py-2">
-              Sign in
-              <GoArrowUpRight className="inline-block ms-2" />
+            <button className="button-1">
+              Sign in <GoArrowUpRight className="inline-block ms-2" />
             </button>
           </div>
           <div className="mx-1 mx-xl-3">
-            <button className="button-2 bold px-2 px-xl-3 py-2">
-              Get Started
-              <GoArrowUpRight className="inline-block ms-2" />
+            <button className="button-2">
+              Get Started <GoArrowUpRight className="inline-block ms-2" />
             </button>
           </div>
         </div>

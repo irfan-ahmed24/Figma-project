@@ -1,4 +1,3 @@
-
 import "../../styles/style.css";
 
 function Benifit() {
@@ -12,7 +11,9 @@ function Benifit() {
               <span className="text-primary">Powered Automation</span>
             </h2>
             <p className="p2-tag mx-0 mx-lg-2">
-              Quickly customize and install an AI-powered chat widget on your website. Engage visitors, answer questions instantly, and boost conversions — all without writing a single line of code.
+              Quickly customize and install an AI-powered chat widget on your
+              website. Engage visitors, answer questions instantly, and boost
+              conversions — all without writing a single line of code.
             </p>
           </div>
         </header>
@@ -45,39 +46,45 @@ function Benifit() {
               </div>
             </div>
           </div>
-          
-          <div className="col-12 d-flex justify-content-between align-items-center position-relative my-4">
+
+          <div className="container-fluid my-4">
+            {" "}
             <div className="row g-4">
-              <div className="col-lg-6">
-                <div className="card2 shadow-sm card small-feature-card">
-                  <div className="col-12 p-5">
-                    <span className="text-primary sub-heading">
+              {" "}
+              <div className="col-12 col-lg-6">
+                <div className="card2 shadow-sm h-100">
+                  {" "}
+                  <div className="p-4 p-md-5">
+                    {" "}
+                    <span className="text-primary sub-heading d-block mb-2">
                       💬 CUSTOMER SUPPORT
                     </span>
                     <h5 className="my-3 text-start h3-tag">
-                      Resolve 70% of customer questions.Instantly.
+                      Resolve 70% of customer questions. Instantly.
                     </h5>
                     <p className="p2-tag text-start">
-                      Make the chat widget a native-looking element of your website. Add your company’s logo, avatar, and background image.
+                      Make the chat widget a native-looking element of your
+                      website. Add your company’s logo, avatar, and background
+                      image.
                     </p>
                   </div>
-                  <div className="col-12 px-4 px-lg-5 pt-0 pt-lg-5">
-                    <div className="image-placeholder bg-light">
+                  <div className="px-4 px-lg-5 pb-lg-5">
+                    {" "}
+                    <div className="image-placeholder bg-light rounded overflow-hidden">
                       <img
                         src="./contentImages/Support.png"
-                        className="img-fluid"
-                        alt=""
+                        className="w-100 img-fluid"
+                        alt="Support"
                       />
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-6">
-                <div className="card1 shadow-sm">
-                  <div className="col-12 p-5">
-                    <span className="text-primary sub-heading">
-                      💬 Sales support
+              <div className="col-12 col-lg-6">
+                <div className="card2 shadow-sm h-100">
+                  <div className="p-4 p-md-5">
+                    <span className="text-primary sub-heading d-block mb-2">
+                      💬 SALES SUPPORT
                     </span>
                     <h5 className="my-3 text-start h3-tag">
                       Empower Engagement and Sales
@@ -88,12 +95,13 @@ function Benifit() {
                       image.
                     </p>
                   </div>
-                  <div className="col-12 px-4 px-lg-5 pt-0 pt-lg-5">
-                    <div className="image-placeholder bg-light">
+
+                  <div className="px-4 px-lg-5 pb-lg-5">
+                    <div className="image-placeholder bg-light rounded overflow-hidden">
                       <img
                         src="./contentImages/saleSupport.png"
-                        className="img-fluid"
-                        alt=""
+                        className="img-fluid w-100"
+                        alt="Sales Support"
                       />
                     </div>
                   </div>

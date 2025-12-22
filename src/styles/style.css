@@ -8,6 +8,8 @@
     --banifit-card-background-color: #FFFFFF;
     --primary-color: linear-gradient(90deg, #2777FC 0%, #BD32FD 100%);
     --border-color: rgb(161, 253, 246);
+    --border:linear-gradient(90deg, rgba(39, 119, 252, 0.4) 0%, rgba(189, 50, 253, 0.4) 100%);
+
     --text-color:#000000;
     --sora:'Sora', sans-serif;
     --inter:'Inter', sans-serif;
@@ -45,7 +47,6 @@
     vertical-align: middle;
     text-transform: capitalize;
     color: var(--text-color);
-
 }
 .h3-tag{
     font-family: var(--sora);
@@ -69,9 +70,15 @@
     color: var(--text-color);
 }
 .h6-tag{
-    font-size: 24px;
+    font-family: var(--sora);
     font-weight: 700;
-    line-height: 40px;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
     color: var(--text-color);
 }
 .p1-tag{
@@ -102,23 +109,32 @@
 
 /*button styles*/
 .button-1 {
-    background: transparent;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    background-image: var(--primary-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     border: 2px solid #2777FC;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 100px;
     font-weight: 600;
     font-family: var(--sora);
     cursor: pointer;
-    background-image: var(--primary-color);
-    -webkit-background-clip: text; /* Clips the background to the shape of the letters */
-    background-clip: text;
-    color: transparent;            /* Makes the original text color invisible so the background shows through */
+}
+
+.button-1 svg {
+    color: #2777FC; 
+    fill: #2777FC;
+    -webkit-background-clip: initial;
+    background-clip: initial;
 }
 .button-2{
     background: var(--primary-color);
     color: white;
     border:none;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 100px;
     font-weight:600;
     font-family: var(--sora);
@@ -175,17 +191,38 @@
     height: 40;
     opacity: 1;
 }
-.group-border{
-    border: 1px solid var(--border-color);
+.group-border {
+    position: relative;
+    padding: 20px;
     border-radius: 8px;
+    background: transparent; 
+    border: 1px solid transparent; 
+}
+.group-border::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    border-radius: 8px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
 }
 
 /*bniefit section*/
+
 .card1 {
     background-color: var(--banifit-card-background-color);
     border: 1px solid var(--border-color);
-    border-radius: 5px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 .card2{
     background-color: var(--banifit-card-background-color);
@@ -197,18 +234,16 @@
 }
 .image-placeholder {
     width: 100%;
-    min-height: 200px;
+    height: fit-content;
     background-color: #eee;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #999;
     font-size: 0.9rem;
-    padding: 15px;
-
-    /* 1. Define border thickness */
+    padding: 0px;
     border: 6px solid transparent; 
-    border-bottom: 0; /* Keeps your 6px 6px 0px 6px logic */
+    border-bottom: 0;
     border-radius: 8px;
 
     background-image: linear-gradient(#eee, #eee), 
@@ -231,6 +266,30 @@
 /*Architechture section*/
 
 /*Features section*/
+.hide-content {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.show-content {
+    max-height: 200px;
+    opacity: 1;
+    transition: max-height 0.5s ease, opacity 0.6s ease;
+}
+
+.feature-item {
+    transition: border-color 0.3s ease;
+}
+
+.feature-item h4 {
+    transition: color 0.3s ease;
+    margin-bottom: 0 !important;
+}
+
+.feature-item.border-primary {
+    border-width: 3px !important;
+}
 
 /*DataProcess section*/
 
@@ -247,16 +306,194 @@
 }
 
 /*Pricing section*/
-.price-card{
-    border: 1px solid #af68cf;
+.price-card {
+    position: relative;
+    padding: 20px;
     border-radius: 8px;
+    background: transparent; 
+    border: 1px solid transparent; 
+}
+
+.price-card::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    border-radius: 8px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
 }
 
 /*FAQ section*/
+.FAQ-card {
+    position: relative;
+    background: transparent;
+    border-radius: 8px;
+    /* Ensure content doesn't sit right on the edge */
+    overflow: hidden; 
+}
+
+.FAQ-card::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    border-radius: 8px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+.FAQ-card > div {
+    position: relative;
+    z-index: 1;
+}
 
 /*Resource section*/
+/* Container for the whole card */
+.resource-card {
+    background: transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-card img {
+    width: 100%;
+    height: 280px;      
+    object-fit: cover;  
+    object-position: center;
+    /* Only top corners rounded */
+    border-radius: 8px 8px 0 0; 
+    display: block;
+}
+
+.resource-card-border {
+    position: relative;
+    /* This creates the bottom part of the card */
+    background: transparent; 
+    border-radius: 0 0 8px 8px;
+    /* Ensure no gap between image and this div */
+    margin-top: -1px; 
+}
+
+.resource-card-border::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    /* Bottom 2 corners have 8px radius, Top is 0 */
+    border-radius: 0 0 8px 8px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+.resource-title-border {
+    position: relative;
+    /* This creates the bottom part of the card */
+    background: transparent; 
+    border-radius: 0 0 0px 0px;
+    /* Ensure no gap between image and this div */
+    margin-top: -1px; 
+}
+
+.resource-title-border::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    /* Bottom 2 corners have 8px radius, Top is 0 */
+    border-radius: 0 0 0px 0px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+
 
 /*footer section*/
+
+.newsletter-container {
+    max-width: 450px; 
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.newsletter-input {
+    height: 58px; 
+    border-radius: 50px !important; 
+    border: 1px solid #D0DBF0 !important; 
+    padding-left: 25px !important;
+    padding-right: 150px !important; 
+    font-size: 16px;
+    background-color: #F4F7FF !important; 
+}
+
+
+.newsletter-btn {
+    position: absolute;
+    right: 6px; 
+    top: 6px;
+    bottom: 6px;
+    background: var(--primary-color); 
+    color: white;
+    border: none;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 5;
+}
+
+.newsletter-btn:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+    .newsletter-input {
+        height: 50px;
+        padding-right: 120px !important;
+        font-size: 14px;
+    }
+    .newsletter-btn {
+        padding: 0 15px;
+        font-size: 13px;
+    }
+}
 
 /*copyright section*/
 
@@ -288,6 +525,31 @@
     animation-timeline: scrollf;
     scroll-timeline: scrollf y;
 }
+.review-card {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent; 
+    border: 1px solid transparent; 
+}
+.review-card::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    border-radius: 8px; 
+    padding: 1px; 
+    background: var(--border); 
+    
+
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
 
 /*fit height width classes*/
 .fit-height{
@@ -296,7 +558,6 @@
 .fit-width{
     width:fit-content;
 }
-
 .screen-width{
     width:100%;
 }
@@ -322,7 +583,7 @@
     border-radius:9999px;
     padding: 6px 8px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .h1-tag{
         font-family: Sora;
         font-weight: 700;
@@ -357,19 +618,19 @@
 
         color: var(--text-color);
     }
-    h4{
+    .h4-tag{
         font-size: 28px;
         font-weight: 700;
         line-height: 40px;
         color: var(--text-color);
     }
-    h5{
-        font-size: 24px;
+    .h5-tag{
+        font-size: 22px;
         font-weight: 700;
         line-height: 40px;
         color: var(--text-color);
     }
-    h6{
+    .h6-tag{
         font-size: 20px;
         font-weight: 700;
         line-height: 40px;
@@ -385,7 +646,7 @@
         font-family: var(--inter);
         font-weight: 400;
         font-style: Regular;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
         letter-spacing: 0%;
         text-align: center;
